@@ -4,21 +4,11 @@ const ContactInformation = () =>
   <section>
     <ul className="contact">
       <li>
-        <h3>Address</h3>
-        <span>
-          12345 Somewhere Road #654
-          <br />
-          Nashville, TN 00000-0000
-          <br />
-          USA
-        </span>
-      </li>
-      <li>
         <h3>Email</h3>
-        <a href="/#">user@untitled.tld</a>
+        <a href="/#">manager@prankcallcall.center</a>
       </li>
       <li>
-        <h3>Phone</h3>
+        <h3>Voicemail</h3>
         <span>(000) 000-0000</span>
       </li>
       <li>

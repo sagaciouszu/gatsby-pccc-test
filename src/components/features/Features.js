@@ -11,17 +11,17 @@ const Features = () => {
     {
       href: '/#',
       image: pic1,
-      heading: 'Sed ipsum dolor',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      heading: 'Community, or something that looks like one.',
+      description: 'Join us and listen to live and older shows of all sorts. With the web-based client, there\'s no set up required!. If you\'re already familiar with IRC we have our server information here.',
       to: {
-        href: '/generic',
-        label: 'Learn more',
+        href: '/chat',
+        label: 'Fire it up!',
       },
     },
     {
       href: '/#',
       image: pic2,
-      heading: 'Feugiat consequat',
+      heading: 'Something else!',
       description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
       to: {
         href: '/generic',
@@ -31,11 +31,11 @@ const Features = () => {
     {
       href: '/#',
       image: pic3,
-      heading: 'Ultricies aliquam',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      heading: 'For the technically inclined...',
+      description: 'Know how to use all this stuff already? Just want to use your own clients? Find out here.',
       to: {
-        href: '/generic',
-        label: 'Learn more',
+        href: '/servers',
+        label: 'Gimme the details!',
       },
     },
   ];

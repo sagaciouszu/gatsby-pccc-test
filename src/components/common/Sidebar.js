@@ -6,9 +6,9 @@ import Tab from './Tab';
 const Sidebar = () => {
   const [tabs] = React.useState([
     { content: 'Welcome', href: 'intro' },
-    { content: 'Who we are', href: 'one' },
-    { content: 'What we do', href: 'two' },
-    { content: 'Get in touch', href: 'three' },
+    { content: 'Live Chat and Radio', href: 'one' },
+    { content: 'What is the PCCC?', href: 'two' },
+    { content: 'Who are the PCCC?', href: 'three' },
   ]);
 
   return (
@@ -22,9 +22,11 @@ const Sidebar = () => {
           >
             {tabs.map(tab => <Tab key={tab.href} {...tab} />)}
           </Scrollspy>
+
         </nav>
+          <iframe title="Live" src="https://prankcallcall.center/public/pccc/embed" frameBorder="0" allowtransparency="true"></iframe>
       </div>
-    </section>
+          </section>
   );
 }
 
